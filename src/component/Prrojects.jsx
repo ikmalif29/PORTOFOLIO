@@ -9,7 +9,7 @@ const projects = [
   {
     title: 'Personal Portfolio',
     description: 'A portfolio website showcasing my web development skills and projects.',
-    link: 'https://myportfolio.com',
+    link: 'https://github.com/ikmalif29/PORTOFOLIO',
     image: 'image2.png',
     technologies: ['React', 'Tailwind CSS', 'HTML'],
   },
