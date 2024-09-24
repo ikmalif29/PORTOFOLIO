@@ -30,7 +30,7 @@ const SkillDonut = ({ name, percentage }) => {
 
 const SkillsDummy = () => {
   return (
-    <div className="py-10 px-5 bg-gray-900 h-auto">
+    <div id="skills" className="py-10 px-5 bg-gray-900 h-auto">
       <h2 className="text-3xl font-bold text-center text-teal-400 mb-6">
         Programming Skills
       </h2>

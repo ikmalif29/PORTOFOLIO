@@ -2,7 +2,7 @@
 
 const Main = () => {
     return (
-        <section className="min-h-screen bg-gradient-to-b from-gray-900 to-black flex flex-col sm:flex-row justify-center items-center text-white p-6 sm:p-12 relative overflow-hidden">
+        <section id="about" className="min-h-screen bg-gradient-to-b from-gray-900 to-black flex flex-col sm:flex-row justify-center items-center text-white p-6 sm:p-12 relative overflow-hidden">
             {/* Floating Animation Elements */}
             <div className="absolute top-20 right-0 w-24 h-24 bg-blue-500 rounded-full opacity-30 animate-float"></div>
             <div className="absolute bottom-32 left-10 w-16 h-16 bg-green-500 rounded-full opacity-30 animate-float-slow"></div>

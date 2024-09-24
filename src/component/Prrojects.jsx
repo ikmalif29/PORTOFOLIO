@@ -24,7 +24,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div className="container mx-auto p-6 bg-gradient-to-b from-gray-900 to-black">
+    <div id="project" className="container mx-auto p-6 bg-gradient-to-b from-gray-900 to-black">
       <h2 className="text-5xl font-extrabold text-center text-white mb-16 animate__animated animate__fadeInDown">My Projects</h2>
       
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">

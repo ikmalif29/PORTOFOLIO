@@ -12,19 +12,15 @@ const Header = () => {
             <nav aria-label="Global" className="hidden md:block">
               <ul className="flex items-center gap-6 text-sm">
                 <li>
-                  <a className="text-white transition hover:text-indigo-600" href="#"> About </a>
+                  <a className="text-white transition hover:text-indigo-600" href="#about"> About </a>
                 </li>
 
                 <li>
-                  <a className="text-white transition hover:text-indigo-600" href="#"> Home </a>
+                  <a className="text-white transition hover:text-indigo-600" href="#project"> Projects </a>
                 </li>
 
                 <li>
-                  <a className="text-white transition hover:text-indigo-600" href="#"> History </a>
-                </li>
-
-                <li>
-                  <a className="text-white transition hover:text-indigo-600" href="#"> Projects </a>
+                  <a className="text-white transition hover:text-indigo-600" href="#skills"> Skills </a>
                 </li>
               </ul>
             </nav>
