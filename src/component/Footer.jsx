@@ -50,7 +50,7 @@ const Footer = () => {
                         </div>
 
                         <p className="mt-4 text-center text-sm text-white lg:mt-0 lg:text-right">
-                            Copyright &copy; | Imals Fao
+                            Copyright &copy; | Raksa Rayasatya
                         </p>
                     </div>
                 </div>

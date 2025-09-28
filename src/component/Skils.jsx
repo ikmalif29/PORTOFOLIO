@@ -1,11 +1,10 @@
 /* eslint-disable react/prop-types */
 const skills = [
-  { name: 'C', percentage: 60 },
-  { name: 'C++', percentage: 65 },
+  { name: 'Java', percentage: 85 },
+  { name: 'C', percentage: 70 },
   { name: 'HTML', percentage: 90 },
   { name: 'CSS', percentage: 85 },
-  { name: 'JavaScript', percentage: 90 },
-  { name: 'React.js', percentage: 85 },
+  { name: 'JavaScript', percentage: 88 },
 ];
 
 const SkillDonut = ({ name, percentage }) => {

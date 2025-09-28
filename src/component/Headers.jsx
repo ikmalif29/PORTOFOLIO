@@ -1,5 +1,5 @@
 import { FcAbout } from "react-icons/fc";
-import { SiHyperskill } from "react-icons/si";
+import { FaDiagramProject } from "react-icons/fa6";
 import { GiSkills } from "react-icons/gi";
 
 const Header = () => {
@@ -9,7 +9,7 @@ const Header = () => {
         <div className="flex h-16 items-center justify-between">
           <div className="flex-1 md:flex md:items-center md:gap-12">
             <h1 className="font-bold text-2xl text-white hover:text-indigo-600 cursor-pointer">
-              Imals Portfolio
+              Raksa Portfolio
             </h1>
           </div>
 
@@ -24,14 +24,14 @@ const Header = () => {
                 </li>
 
                 <li className="flex items-center gap-2">
-                  <SiHyperskill />
+                  <FaDiagramProject size={24} color="red" />
                   <a className="text-white transition hover:text-indigo-600" href="#project">
                     Projects
                   </a>
                 </li>
 
                 <li className="flex items-center gap-2">
-                  <GiSkills size={24} />
+                  <GiSkills color="white" size={24} />
                   <a className="text-white transition hover:text-indigo-600" href="#skills">
                     Skills
                   </a>
@@ -40,14 +40,6 @@ const Header = () => {
             </nav>
 
             <div className="flex items-center gap-4">
-              <div className="sm:flex sm:gap-4">
-                <a
-                  className="rounded-md bg-indigo-600 px-5 py-2.5 text-sm font-medium text-white shadow hover:bg-indigo-800"
-                  href="#"
-                >
-                  Login
-                </a>
-              </div>
 
               <div className="block md:hidden">
                 <button className="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75">
